@@ -231,7 +231,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1158px) {
   .address-link:nth-child(1) {
     margin-bottom: 12px;
   }
@@ -338,7 +338,9 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-
+  .content {
+    display: flex;
+  }
   .content-image {
     display: flex;
     justify-content: center;
@@ -349,6 +351,7 @@
   }
   .content-list {
     width: 264px;
+    margin-right: 24px;
   }
   .content-svg {
     display: flex;
