@@ -461,6 +461,8 @@ img {
 .customers-icon {
   fill: #8e8f99;
   transition: fill var(--transition);
+  width: 104px;
+  height: 56px;
 }
 
 .customers-link:hover .customers-icon,

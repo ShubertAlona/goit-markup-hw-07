@@ -153,9 +153,6 @@
     column-gap: 24px;
     row-gap: 72px;
   }
-  .customers-link {
-    max-width: 168px;
-  }
 }
 
 /*-------------------- MAX-WIDTH-767PX--------------------- */
@@ -249,6 +246,9 @@
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+  .customers-link {
+    max-width: 168px;
   }
   .header-container {
     display: flex;
@@ -435,6 +435,7 @@
   }
   .footer-box-soc {
     gap: 0;
+    margin-bottom: 0;
   }
   .footer-soc-section {
     width: 264px;
