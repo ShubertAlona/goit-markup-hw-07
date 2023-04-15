@@ -138,7 +138,7 @@ img {
   height: 4px;
   margin: 0 auto;
   left: 0;
-  bottom: -25px;
+  bottom: -30px;
   background-color: var(--light-blue);
   border-radius: 2px;
 }
@@ -230,7 +230,7 @@ img {
   color: var(--light-blue);
 }
 
-.menu-mail {
+.menu-list {
   margin-bottom: 48px;
 }
 
@@ -316,7 +316,7 @@ img {
 /*---------------- CONTENT---------------- */
 .section-content {
   padding-top: 96px;
-  padding-bottom: 24px;
+  padding-bottom: 96px;
 }
 
 .content-title {
@@ -356,7 +356,7 @@ img {
 
 .team {
   padding-top: 96px;
-  padding-bottom: 24px;
+  padding-bottom: 96px;
   background: var(--black-white);
 }
 
@@ -381,7 +381,6 @@ img {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
-  margin-bottom: 72px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -446,6 +445,7 @@ img {
 .customers-list {
   width: 164px;
   height: 88px;
+  flex-basis: content;
 }
 .customers-link {
   width: 100%;
@@ -502,9 +502,6 @@ img {
   margin-top: 17.5px;
   width: 268px;
 }
-.footer-soc-section {
-  margin-bottom: 72px;
-}
 
 .footer-page {
   font-weight: 500;
@@ -519,7 +516,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .footer-link {
