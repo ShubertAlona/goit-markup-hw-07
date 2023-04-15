@@ -403,7 +403,8 @@
     padding-bottom: 120px;
   }
   .footer {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100pxpx;
   }
   .footer-box {
     display: flex;
@@ -415,6 +416,7 @@
     width: 264px;
     height: 112px;
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .footer-wrap {
     display: flex;

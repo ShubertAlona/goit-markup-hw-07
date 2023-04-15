@@ -901,7 +901,7 @@ img {
 .modal-check-input:checked + .check-text::before {
   background-color: var(--light-blue);
   border: none;
-  background-image: url(../images/Vector.svg);
+  background-image: url(../images/vector.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 10;
