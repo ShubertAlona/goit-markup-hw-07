@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Web Studio</title>
   </head>
   <body>
@@ -43,33 +44,103 @@
         </nav>
         <address class="address">
           <ul class="list address-list">
-            <li>
+            <li class="address-link">
               <a class="address-nav link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-link">
               <a class="address-nav link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open" data-menu-open>
+          <svg class="menu-image">
+            <use href="./images/icons.svg.svg#icon-linia"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu is-hidden" data-menu>
+        <div class="menu-container container">
+          <button type="button" class="menu-button" data-menu-close>
+            <svg class="menu-svg">
+              <use href="./images/button-close.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="list menu-list">
+            <li class="menu-list-soc">
+              <a class="menu-nav-link menu-color link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="menu-list-soc">
+              <a class="menu-nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-list-socil">
+              <a class="menu-nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <div class="menu-contacts">
+            <ul class="list menu-list">
+              <li class="menu-tel">
+                <a class="menu-nav-tel link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="menu-mail">
+                <a class="menu-nav-mail link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="team-soc-list list">
+              <li class="team-soc-wrap">
+                <a href="" class="team-socs link">
+                  <svg class="soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-instagram-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-wrap">
+                <a href="" class="team-socs link">
+                  <svg class="soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-wrap">
+                <a href="" class="team-socs link">
+                  <svg class="soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-wrap">
+                <a href="" class="team-socs link">
+                  <svg class="soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <section class="page">
         <div class="container">
-          <h1 class="page-title">
-            Effective Solutions<br />
-            for Your Business
-          </h1>
+          <h1 class="page-title">Effective Solutions for Your Business</h1>
           <button type="button" class="page-btn" data-modal-open>
             Order Service
           </button>
         </div>
       </section>
-      <section class="section">
+      <section class="section-content">
         <div class="container">
           <h2 class="visually-hidden">Web Studio</h2>
           <ul class="content list">
@@ -172,7 +243,9 @@
           <ul class="list team-list">
             <li class="list-color">
               <img
+                class="img-team"
                 src="./images/mark-min.jpg"
+                srcset="./images/mark-min-2x.jpg 2x"
                 alt="foto by Mark"
                 width="264"
                 height="260"
@@ -221,7 +294,9 @@
             </li>
             <li class="list-color">
               <img
+                class="img-team"
                 src="./images/tom-min.jpg"
+                srcset="./images/tom-min-2x.jpg 2x"
                 alt="foto by Tom"
                 width="264"
                 height="260"
@@ -269,7 +344,9 @@
             </li>
             <li class="list-color">
               <img
+                class="img-team"
                 src="./images/camila-min.jpg"
+                srcset="./images/camila-min-2x.jpg 2x"
                 alt="foto by Camila"
                 width="264"
                 height="260"
@@ -317,7 +394,9 @@
             </li>
             <li class="list-color">
               <img
+                class="img-team"
                 src="./images/daniel-min.jpg"
+                srcset="./images/daniel-min-2x.jpg 2x"
                 alt="foto by Daniel"
                 width="264"
                 height="260"
@@ -417,48 +496,50 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-box container">
-        <div class="footer-soc-section">
-          <a href="./index.html" class="footer-logo link"
-            >Web<span class="span link">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-soc">
-          <h3 class="footer-page">Social media</h3>
-          <ul class="footer-wrap list">
-            <li class="footer-list">
-              <a href="" class="footer-link link">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg.svg#icon-instagram-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list">
-              <a href="" class="footer-link link">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list">
-              <a href="" class="footer-link link">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg.svg#icon-facebook-1 "></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list">
-              <a href="" class="footer-link link">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+      <div class="footer-box footer-box-content container">
+        <div class="footer-box-soc">
+          <div class="footer-soc-section">
+            <a href="./index.html" class="footer-logo link"
+              >Web<span class="span link">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-soc">
+            <h3 class="footer-page">Social media</h3>
+            <ul class="footer-wrap list">
+              <li class="footer-list">
+                <a href="" class="footer-link link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-instagram-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list">
+                <a href="" class="footer-link link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list">
+                <a href="" class="footer-link link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-facebook-1 "></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list">
+                <a href="" class="footer-link link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer-subscribe">
           <p class="footer-subscribe-text">Subscribe</p>
@@ -570,8 +651,8 @@
               />
               <label for="private" class="check-text"
                 >I accept the terms and conditions of the
-                <a href="" class="check-link">Privacy Policy</a></label
-              >
+                <a href="" class="check-link">Privacy Policy</a>
+              </label>
             </div>
             <button type="submit" class="modal-submit">Send</button>
           </form>
@@ -579,5 +660,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
