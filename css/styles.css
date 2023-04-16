@@ -448,7 +448,7 @@ img {
   flex-basis: content;
 }
 .customers-link {
-  width: 100%;
+  width: 168px;
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -746,6 +746,7 @@ img {
   height: 100%;
   background-color: var(--background-eclipse);
   transform: opacity var(--transition), visibility var(--transition);
+  transition: opacity 300ms linear, visbility 300ms linear;
 }
 
 .modal-svg {
